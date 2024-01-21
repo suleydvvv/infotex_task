@@ -1,0 +1,36 @@
+
+.content{
+    h5{
+        margin: 0;
+        font-size: 1em;
+        cursor: pointer;
+    }
+
+    h5:hover{
+        color: blue;
+    }
+
+    .sorting{
+        width: 50%;
+        height: fit-content;
+        margin: 1em auto;
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    
+        .type_of_sorting{
+            width: 30%;
+            min-width: 120px;
+    
+            p{
+                margin: 5px auto;
+            }
+        }
+    }
+    
+    .sorting_inactive{
+        display: none;
+    }
+}

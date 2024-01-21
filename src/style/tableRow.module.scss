@@ -1,0 +1,12 @@
+.tableRow{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+
+.tableRow:hover{
+    background-color: antiquewhite;
+}
